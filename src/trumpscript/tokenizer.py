@@ -138,7 +138,7 @@ class Tokenizer:
                             tokens.append(Tokenizer.toke(T_False, None, line))
                         else:
                             tokens.append(Tokenizer.toke(T_True, None, line))
-                    elif word == "false" or word == "lies" or word == "nonsense" or word == "lie":
+                    elif word == "false" or word == "lies" or word == "nonsense" or word == "lie" or word == "alt fact" or word == "alt-fact":
                         if (flip_flop):
                             tokens.append(Tokenizer.toke(T_True, None, line))
                         else:
